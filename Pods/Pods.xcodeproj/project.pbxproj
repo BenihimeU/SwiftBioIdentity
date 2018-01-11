@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19A1CEF16393E8BB6560403E00DB3BB0 /* Pods-SwiftBioTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4CEA8E8ED9297DC97AF59E860E39E5 /* Pods-SwiftBioTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41DE8C88BC691674B89E1ACB928CFBE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4FF825FF16B9F9CEF36AEEDF135F9067 /* Pods-SwiftBio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19470DB9864BB614906B1432B1428862 /* Pods-SwiftBio-dummy.m */; };
+		503724EA0E0C6397E4538EE8175C12E3 /* Pods-SwiftBioUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F99E65DB9E33F1C093EED25672C728 /* Pods-SwiftBioUITests-dummy.m */; };
+		8F40D45B2651E1B7E9137A97FA351456 /* Pods-SwiftBioUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A89A13BF7F1ADE77D9734379E7CD23 /* Pods-SwiftBioUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		972A1DD152DF6E331C95776C8B4FEA00 /* Pods-SwiftBio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 261716AAE94808AE8A82D5AB5D29DB3A /* Pods-SwiftBio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6DC59D7B8DE2FC6DF254C3F32BAFEE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AB9976B06C4D1055FF71C11501436D6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FA46564E2A87CC1CD7DB7B550FA23107 /* Pods-SwiftBioTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E62F12233D73439712ABEADDB68CCD /* Pods-SwiftBioTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A00DFB6505E519EA5DD129C717A7991 /* Pods-SwiftBioTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftBioTests-frameworks.sh"; sourceTree = "<group>"; };
+		0D7A837D9A371DD1CABBED0E1B5A26EE /* Pods-SwiftBioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftBioTests.release.xcconfig"; sourceTree = "<group>"; };
+		17BBFA34F5B95A5FBB53D177CB627EEA /* Pods-SwiftBio-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftBio-acknowledgements.plist"; sourceTree = "<group>"; };
+		19470DB9864BB614906B1432B1428862 /* Pods-SwiftBio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftBio-dummy.m"; sourceTree = "<group>"; };
+		226FD363C9A64B190152EB4453859B2A /* Pods-SwiftBio-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftBio-frameworks.sh"; sourceTree = "<group>"; };
+		25332311C2DB2C659889766485F1E523 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		261716AAE94808AE8A82D5AB5D29DB3A /* Pods-SwiftBio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftBio-umbrella.h"; sourceTree = "<group>"; };
+		3389231E040EDDC02E631012A35D537F /* Pods-SwiftBio-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftBio-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3842FC04FD1634248C44FC88762EDDE1 /* Pods-SwiftBioTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftBioTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3FD422C818191E26E4214B8A4A41388A /* Pods-SwiftBioUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftBioUITests.modulemap"; sourceTree = "<group>"; };
+		4A4AB7CBB43C6D76B51B0954F3329C58 /* Pods-SwiftBioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftBioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		517B366064EBC8D3D8636882AE2B6E03 /* Pods-SwiftBio-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftBio-resources.sh"; sourceTree = "<group>"; };
+		51E62F12233D73439712ABEADDB68CCD /* Pods-SwiftBioTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftBioTests-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		731685DD145EFC30B17DB7F3DD359256 /* Pods-SwiftBioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftBioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		763908E8135A7FFC61DF976997CAF027 /* Pods-SwiftBioUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftBioUITests-frameworks.sh"; sourceTree = "<group>"; };
+		7C709E09793C2EF3CE1E37626C7A21AD /* Pods-SwiftBio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftBio.debug.xcconfig"; sourceTree = "<group>"; };
+		83C44EAE7AEB8E27B2E6A293C86D158F /* Pods-SwiftBioTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftBioTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		87328CFEBEDEAC647330F2EDA2D99B2C /* Pods-SwiftBio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftBio.release.xcconfig"; sourceTree = "<group>"; };
+		8E0C01A0FD8D20B75E16AF1D4D8A4F8E /* Pods-SwiftBioUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftBioUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97A89A13BF7F1ADE77D9734379E7CD23 /* Pods-SwiftBioUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftBioUITests-umbrella.h"; sourceTree = "<group>"; };
+		98F99E65DB9E33F1C093EED25672C728 /* Pods-SwiftBioUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftBioUITests-dummy.m"; sourceTree = "<group>"; };
+		996E2A02241E4920DE381EDFB3275EF3 /* Pods_SwiftBio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftBio.framework; path = "Pods-SwiftBio.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25C3B2E9140CF037251A8D104E83BF7 /* Pods-SwiftBioUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftBioUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A65E70568D3967B4F4895B2A731CF0BB /* Pods-SwiftBioUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftBioUITests-resources.sh"; sourceTree = "<group>"; };
+		A937DFB110156E7AC6596BCA9FE45BA1 /* Pods-SwiftBioTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftBioTests-resources.sh"; sourceTree = "<group>"; };
+		BE4CEA8E8ED9297DC97AF59E860E39E5 /* Pods-SwiftBioTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftBioTests-umbrella.h"; sourceTree = "<group>"; };
+		CC9F282737F009DAE97E2F34819AC95D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03BCF88FD8B4AF236B3A9366F7DCDE8 /* Pods-SwiftBio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftBio.modulemap"; sourceTree = "<group>"; };
+		D3E041CAB9794311410AF6A0B01E9528 /* Pods-SwiftBioTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftBioTests.modulemap"; sourceTree = "<group>"; };
+		D7A5DC208D9B371AB3D75DAEA416F8EF /* Pods_SwiftBioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftBioUITests.framework; path = "Pods-SwiftBioUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8622104DB9EB461C38D90DD5C203179 /* Pods-SwiftBioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftBioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E5E45F95BC8ADEC5950C5EA402385FA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59EE57923C7E9B4D7EF129ECC01DFB1 /* Pods_SwiftBioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftBioTests.framework; path = "Pods-SwiftBioTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7809EBA3B720AE28EE0FA64804CE1F56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9976B06C4D1055FF71C11501436D6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CF14745F98BBB01FE3032E53D5441E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DE8C88BC691674B89E1ACB928CFBE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4584D725D8EEBC13913552A3F1D39D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DC59D7B8DE2FC6DF254C3F32BAFEE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		131FABBFAB4B92B52F1F927A82494721 /* Pods-SwiftBioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC9F282737F009DAE97E2F34819AC95D /* Info.plist */,
+				3FD422C818191E26E4214B8A4A41388A /* Pods-SwiftBioUITests.modulemap */,
+				A25C3B2E9140CF037251A8D104E83BF7 /* Pods-SwiftBioUITests-acknowledgements.markdown */,
+				8E0C01A0FD8D20B75E16AF1D4D8A4F8E /* Pods-SwiftBioUITests-acknowledgements.plist */,
+				98F99E65DB9E33F1C093EED25672C728 /* Pods-SwiftBioUITests-dummy.m */,
+				763908E8135A7FFC61DF976997CAF027 /* Pods-SwiftBioUITests-frameworks.sh */,
+				A65E70568D3967B4F4895B2A731CF0BB /* Pods-SwiftBioUITests-resources.sh */,
+				97A89A13BF7F1ADE77D9734379E7CD23 /* Pods-SwiftBioUITests-umbrella.h */,
+				731685DD145EFC30B17DB7F3DD359256 /* Pods-SwiftBioUITests.debug.xcconfig */,
+				D8622104DB9EB461C38D90DD5C203179 /* Pods-SwiftBioUITests.release.xcconfig */,
+			);
+			name = "Pods-SwiftBioUITests";
+			path = "Target Support Files/Pods-SwiftBioUITests";
+			sourceTree = "<group>";
+		};
+		24E374DBC953645F6C400F9E00068FC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				996E2A02241E4920DE381EDFB3275EF3 /* Pods_SwiftBio.framework */,
+				F59EE57923C7E9B4D7EF129ECC01DFB1 /* Pods_SwiftBioTests.framework */,
+				D7A5DC208D9B371AB3D75DAEA416F8EF /* Pods_SwiftBioUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		734BE2F99D043DFD95FDD2C8C9CEB2B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5B7168246624D4ABC640FF12E1D66 /* Pods-SwiftBio */,
+				7B2F5E3CF6BFED79F80833A082FF712A /* Pods-SwiftBioTests */,
+				131FABBFAB4B92B52F1F927A82494721 /* Pods-SwiftBioUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7B2F5E3CF6BFED79F80833A082FF712A /* Pods-SwiftBioTests */ = {
+			isa = PBXGroup;
+			children = (
+				25332311C2DB2C659889766485F1E523 /* Info.plist */,
+				D3E041CAB9794311410AF6A0B01E9528 /* Pods-SwiftBioTests.modulemap */,
+				3842FC04FD1634248C44FC88762EDDE1 /* Pods-SwiftBioTests-acknowledgements.markdown */,
+				83C44EAE7AEB8E27B2E6A293C86D158F /* Pods-SwiftBioTests-acknowledgements.plist */,
+				51E62F12233D73439712ABEADDB68CCD /* Pods-SwiftBioTests-dummy.m */,
+				0A00DFB6505E519EA5DD129C717A7991 /* Pods-SwiftBioTests-frameworks.sh */,
+				A937DFB110156E7AC6596BCA9FE45BA1 /* Pods-SwiftBioTests-resources.sh */,
+				BE4CEA8E8ED9297DC97AF59E860E39E5 /* Pods-SwiftBioTests-umbrella.h */,
+				4A4AB7CBB43C6D76B51B0954F3329C58 /* Pods-SwiftBioTests.debug.xcconfig */,
+				0D7A837D9A371DD1CABBED0E1B5A26EE /* Pods-SwiftBioTests.release.xcconfig */,
+			);
+			name = "Pods-SwiftBioTests";
+			path = "Target Support Files/Pods-SwiftBioTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				24E374DBC953645F6C400F9E00068FC3 /* Products */,
+				734BE2F99D043DFD95FDD2C8C9CEB2B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9F5B7168246624D4ABC640FF12E1D66 /* Pods-SwiftBio */ = {
+			isa = PBXGroup;
+			children = (
+				E5E45F95BC8ADEC5950C5EA402385FA0 /* Info.plist */,
+				D03BCF88FD8B4AF236B3A9366F7DCDE8 /* Pods-SwiftBio.modulemap */,
+				3389231E040EDDC02E631012A35D537F /* Pods-SwiftBio-acknowledgements.markdown */,
+				17BBFA34F5B95A5FBB53D177CB627EEA /* Pods-SwiftBio-acknowledgements.plist */,
+				19470DB9864BB614906B1432B1428862 /* Pods-SwiftBio-dummy.m */,
+				226FD363C9A64B190152EB4453859B2A /* Pods-SwiftBio-frameworks.sh */,
+				517B366064EBC8D3D8636882AE2B6E03 /* Pods-SwiftBio-resources.sh */,
+				261716AAE94808AE8A82D5AB5D29DB3A /* Pods-SwiftBio-umbrella.h */,
+				7C709E09793C2EF3CE1E37626C7A21AD /* Pods-SwiftBio.debug.xcconfig */,
+				87328CFEBEDEAC647330F2EDA2D99B2C /* Pods-SwiftBio.release.xcconfig */,
+			);
+			name = "Pods-SwiftBio";
+			path = "Target Support Files/Pods-SwiftBio";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		31159ACEC65AECDE206CC8D7A23808C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A1CEF16393E8BB6560403E00DB3BB0 /* Pods-SwiftBioTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C47693D9009B2EE170EAA78FECAA5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F40D45B2651E1B7E9137A97FA351456 /* Pods-SwiftBioUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894AE112845CB09EBADE168F2029084B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972A1DD152DF6E331C95776C8B4FEA00 /* Pods-SwiftBio-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		151C8AE96085A29308EE5F0B49AD8E2A /* Pods-SwiftBioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DD3F4CF6BC271801D1B0968A918FCDA /* Build configuration list for PBXNativeTarget "Pods-SwiftBioUITests" */;
+			buildPhases = (
+				EC8D8C4910CED5E5938014D1ADB3F902 /* Sources */,
+				7809EBA3B720AE28EE0FA64804CE1F56 /* Frameworks */,
+				48C47693D9009B2EE170EAA78FECAA5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SwiftBioUITests";
+			productName = "Pods-SwiftBioUITests";
+			productReference = D7A5DC208D9B371AB3D75DAEA416F8EF /* Pods_SwiftBioUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6617A33FE844A7CCD0CF28440AF2FC46 /* Pods-SwiftBio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA937F3B09EAA32F911D87CF4BCA4F89 /* Build configuration list for PBXNativeTarget "Pods-SwiftBio" */;
+			buildPhases = (
+				25808B84D605639A8A002D6A9775C8EE /* Sources */,
+				B2CF14745F98BBB01FE3032E53D5441E /* Frameworks */,
+				894AE112845CB09EBADE168F2029084B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SwiftBio";
+			productName = "Pods-SwiftBio";
+			productReference = 996E2A02241E4920DE381EDFB3275EF3 /* Pods_SwiftBio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A6A57E8B52886CF238905045871ABF1 /* Pods-SwiftBioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E836FAF06D586A4767806A33AEE074E /* Build configuration list for PBXNativeTarget "Pods-SwiftBioTests" */;
+			buildPhases = (
+				863A9118F4CD9D20833432D5ACFAA401 /* Sources */,
+				BE4584D725D8EEBC13913552A3F1D39D /* Frameworks */,
+				31159ACEC65AECDE206CC8D7A23808C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SwiftBioTests";
+			productName = "Pods-SwiftBioTests";
+			productReference = F59EE57923C7E9B4D7EF129ECC01DFB1 /* Pods_SwiftBioTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 24E374DBC953645F6C400F9E00068FC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6617A33FE844A7CCD0CF28440AF2FC46 /* Pods-SwiftBio */,
+				6A6A57E8B52886CF238905045871ABF1 /* Pods-SwiftBioTests */,
+				151C8AE96085A29308EE5F0B49AD8E2A /* Pods-SwiftBioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25808B84D605639A8A002D6A9775C8EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF825FF16B9F9CEF36AEEDF135F9067 /* Pods-SwiftBio-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863A9118F4CD9D20833432D5ACFAA401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA46564E2A87CC1CD7DB7B550FA23107 /* Pods-SwiftBioTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8D8C4910CED5E5938014D1ADB3F902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503724EA0E0C6397E4538EE8175C12E3 /* Pods-SwiftBioUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D1B1913772DD01F7E97CFFB8F15E7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87328CFEBEDEAC647330F2EDA2D99B2C /* Pods-SwiftBio.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftBio/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftBio/Pods-SwiftBio.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftBio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1574DFBE46C3A95056829BC718547A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5B5A1446720EEC8CE963B9BD750713E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		690D27C508BC25E7FAC51F281C8C4B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731685DD145EFC30B17DB7F3DD359256 /* Pods-SwiftBioUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftBioUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftBioUITests/Pods-SwiftBioUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftBioUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D4C6CC6FD1522F109B619E4A88F9521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D7A837D9A371DD1CABBED0E1B5A26EE /* Pods-SwiftBioTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftBioTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftBioTests/Pods-SwiftBioTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftBioTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B18C46D2B0C0F5AB45B874F79B08EFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8622104DB9EB461C38D90DD5C203179 /* Pods-SwiftBioUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftBioUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftBioUITests/Pods-SwiftBioUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftBioUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC120C6350CE1641BC3D72ED16B7E2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C709E09793C2EF3CE1E37626C7A21AD /* Pods-SwiftBio.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftBio/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftBio/Pods-SwiftBio.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftBio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FBB993C36F79A87D592983E3E01B3301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4AB7CBB43C6D76B51B0954F3329C58 /* Pods-SwiftBioTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftBioTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftBioTests/Pods-SwiftBioTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftBioTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5A1446720EEC8CE963B9BD750713E4 /* Debug */,
+				1574DFBE46C3A95056829BC718547A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DD3F4CF6BC271801D1B0968A918FCDA /* Build configuration list for PBXNativeTarget "Pods-SwiftBioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				690D27C508BC25E7FAC51F281C8C4B09 /* Debug */,
+				B18C46D2B0C0F5AB45B874F79B08EFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E836FAF06D586A4767806A33AEE074E /* Build configuration list for PBXNativeTarget "Pods-SwiftBioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB993C36F79A87D592983E3E01B3301 /* Debug */,
+				8D4C6CC6FD1522F109B619E4A88F9521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA937F3B09EAA32F911D87CF4BCA4F89 /* Build configuration list for PBXNativeTarget "Pods-SwiftBio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC120C6350CE1641BC3D72ED16B7E2DB /* Debug */,
+				0D1B1913772DD01F7E97CFFB8F15E7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
